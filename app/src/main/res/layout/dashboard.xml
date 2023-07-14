@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:id="@+id/dashboard_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard"
+        android:textSize="36sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:layout_below="@id/dashboard_title"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/recipe_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_generation"
+        android:layout_below="@id/profile_button"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/meal_plan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weekly_meal_plan"
+        android:layout_below="@id/recipe_button"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:layout_below="@id/meal_plan_button"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

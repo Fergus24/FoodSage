@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">FoodSage</string>
     <string name="login">Login</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="recipe_generation">Recipe Generation</string>
+    <string name="weekly_meal_plan">Weekly Meal Plan</string>
+    <string name="settings">Settings</string>
 </resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textSize="36sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/personal_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_details"
+        android:layout_below="@id/profile"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/diet_aim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diet_aim"
+        android:layout_below="@id/personal_details"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/equipment"
+        android:layout_below="@id/diet_aim"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/supermarket_accounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/supermarket_accounts"
+        android:layout_below="@id/equipment"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

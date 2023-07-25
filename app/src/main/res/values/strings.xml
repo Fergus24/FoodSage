@@ -10,6 +10,8 @@
     <string name="diet_aim">Dietary Aim</string>
     <string name="personal_details">Personal details</string>
     <string name="supermarket_accounts">Supermarket accounts</string>
-
-
+    <string name="use_saved_recipe">Use a saved recipe</string>
+    <string name="enter_a_recipe">Enter your own recipe</string>
+    <string name="generate_a_recipe">Generate a new recipe</string>
+    <string name="quick_generation">Quickly generate a new recipe</string>
 </resources>

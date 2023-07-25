@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:id="@+id/recipe_generation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_generation"
+        android:textSize="36sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/generate_a_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_a_recipe"
+        android:layout_below="@id/recipe_generation"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/quick_generation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quick_generation"
+        android:layout_below="@id/generate_a_recipe"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/use_saved_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/use_saved_recipe"
+        android:layout_below="@id/quick_generation"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_a_recipe"
+        android:layout_below="@id/use_saved_recipe"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
